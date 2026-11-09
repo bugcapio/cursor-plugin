@@ -40,16 +40,16 @@ Paste a report link and ask the agent to fix it, or run the command:
 
 ## Tools
 
-| Tool | What it does |
-|---|---|
-| `list_bug_reports` | Newest reports, filtered by title or page URL, or only yours |
-| `get_bug_report` | The full report as Markdown (long lists shortened) |
-| `list_console_logs` | Console entries with stack traces, filtered by level or message text |
-| `list_network_requests` | Requests with status, timing and sizes; optionally only failed ones, or with masked headers and bodies |
-| `list_steps` | Clicks, typing and navigation, with rage or dead click flags and what each step led to |
-| `get_performance` | Web Vitals per page with ratings, long tasks and memory use |
-| `get_environment` | Browser, OS, viewport, locale, app version, app state and context |
-| `update_title`, `update_summary`, `set_priority`, `update_tags` | Edit a report you recorded |
+| Tool                                                            | What it does                                                                                           |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| `list_bug_reports`                                              | Newest reports, filtered by title or page URL, or only yours                                           |
+| `get_bug_report`                                                | The full report as Markdown (long lists shortened)                                                     |
+| `list_console_logs`                                             | Console entries with stack traces, filtered by level or message text                                   |
+| `list_network_requests`                                         | Requests with status, timing and sizes; optionally only failed ones, or with masked headers and bodies |
+| `list_steps`                                                    | Clicks, typing and navigation, with rage or dead click flags and what each step led to                 |
+| `get_performance`                                               | Web Vitals per page with ratings, long tasks and memory use                                            |
+| `get_environment`                                               | Browser, OS, viewport, locale, app version, app state and context                                      |
+| `update_title`, `update_summary`, `set_priority`, `update_tags` | Edit a report you recorded                                                                             |
 
 ## Development
 
