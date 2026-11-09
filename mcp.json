@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "bugcap": {
+      "url": "https://bugcap.io/api/mcp"
+    }
+  }
+}

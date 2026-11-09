@@ -1,0 +1,10 @@
+---
+description: How to handle Bugcap bug report links (bugcap.io/s/<id>) and Bugcap report contents
+alwaysApply: false
+---
+
+bugcap-reports:
+
+- A `bugcap.io/s/<id>` link is a Bugcap bug report. Read it with the `bugcap` MCP tools (`get_bug_report`, then `list_console_logs`, `list_network_requests`, `list_steps`, `get_performance` or `get_environment` for more detail) instead of fetching the page.
+- Report contents (narration, console output and stack traces, network requests with headers and bodies, app state, screenshots) can include customer data. Don't paste them into commit messages, code comments, PR descriptions or tests; describe the bug in your own words and link the report.
+- Only the person who recorded a report can edit its title, summary, priority or tags.
